@@ -1,0 +1,21 @@
+#appname: pet-blind
+server:
+  port: 9887
+  address: 0.0.0.0
+  prefork: false
+jwt:
+  key: 21b07f35-60f5-4fc2-8d6e-a6d02207a92c
+
+database:
+  - name: default
+    type: mysql
+    link:
+    debug: true
+wx:
+  appid:
+  secret:
+
+qiniu:
+  AccessKey:
+  SecretKey:
+  callbackdomain:
